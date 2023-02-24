@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <title>석민규의 페이지</title>
+    </head>
+    <style>
+    body{
+        background-color: rgba(211, 227, 239, 0.455);
+    }
+    a:link {
+        color:pink;    
+    }
+    a:hover {
+        color:green;
+    }
+    .shadow{
+        color:white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        background-color: rgba(178, 209, 232, 0.89)
+    }
+    @media screen and (max-width: 640px) {
+        .rwd{
+            font-size: 10px;
+        }
+        img{
+             width:20%;
+             height: auto;
+        }
+    }
+    </style>
+
+    <body>
+        <div class = "rwd">
+        <div class = "container-fluid p-3 my-3 text-white" style = "background-color : rgba(8, 69, 182, 0.414); text-align: center;">
+        <p id="demo"></p>
+        <img src = "https://t1.daumcdn.net/news/202105/21/ABpet/20210521202445366aguc.jpg" class = "rounded-circle" alt = "image" width = "200" height = "200">
+        <h1>19011447 석민규</h1>
+        <small>과제용 웹페이지 입니다.</small>
+        </div>
+
+        <div class = "container-fluid p-3 my-3 text-white" style = "background-color: rgba(93, 168, 203, 0.726);">
+        <h2>기본 정보</h2>
+        <h6>이름 : 석민규</h6>
+        <h6>학과/학년 : 컴퓨터공학과/2학년</h6>
+        <h6>생년월일 : 2000.08.28</h6>
+        </div>
+
+        <style>
+            table{
+                width:40%
+            }
+            th{
+                text-align: center;
+            }
+
+        </style>
+        <div class="container-fluid">
+        <table class="table table-striped table-light" style = "width : 70%;">
+            <thead class = "thead-dark">
+            <tr>
+                <th>년도</th>
+                <th>이력</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="font-weight-bold" style="background-color:rgba(12, 45, 75, 0.404);">2013</td>
+                <td>모락중학교 입학</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold" style="background-color:rgba(12, 45, 75, 0.404);">2016</td>
+                <td>우성고등학교 입학</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold" style="background-color:rgba(12, 45, 75, 0.404);">2019</td>
+                <td>세종대학교 입학</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold" style="background-color:rgba(12, 45, 75, 0.404);">2020</td>
+                <td>휴학/육군 28사단 입대</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold" style="background-color:rgba(12, 45, 75, 0.404);">2021/2022</td>
+                <td>육군 병장 만기 전역/복학</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <div class ="container-fluid">
+        <iframe width="400" height="200" src="https://www.youtube.com/embed/Vt6HifUaF_k" alt = "youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <p style = "font-size:x-small;"><a href="https://youtu.be/Vt6HifUaF_k"><img src = "https://yt3.ggpht.com/ytc/AKedOLTSR1TnXEvlrMZVVWYHv9BRfwu9L44Iw2iZaWQ_tg=s900-c-k-c0x00ffffff-no-rj" alt = "youtube" width = "50px"></a>영상 실행 오류시 이미지 클릭</p>
+        </div>
+
+        <div class = "container-fluid">
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">개인 정보</button>
+        <div id="demo" class="collapse">
+        <ul style= "font-weight: bold; background-color: rgba(149, 196, 238, 0.473);">
+            <li>혈액형 - A형</li>
+            <li>거주지 - 경기도 의왕시</li>
+            <li>가족관계 - 엄마, 아빠, 형, 나 총 4명</li>
+        </ul>
+        </div>
+        </div>
+
+        <div class="container-fluid p-3 my-3 text-white font-weight-bold" style ="background-color: rgba(10, 128, 128, 0.291);">
+        <div style="display:inline-block;vertical-align:middle;">
+        <img src = "https://travelblog.expedia.co.kr/wp-content/uploads/2016/12/08.jpg" alt = "image" width = "200" height = "250">
+        </div>
+        <div style = "display: inline-block;">
+        <p>취미 - 게임(League of legends), 운동(축구, 농구, 테니스 등)</p>
+        <p>성격/MBTI - 조용한 성격/ISFJ-T</p>
+        <p>요즘 태연 노래를 즐겨 듣고 있고, 여행 다니는 것을 좋아함</p>
+        </div>
+        </div>
+
+        <div class="container-fluid" style ="background-color: rgba(178, 209, 232, 0.89)">
+        <div style="display:inline-block;vertical-align:middle;">
+        <iframe width="400" height="200" src="https://www.youtube.com/embed/5ch94AaPZRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        </div>
+        <div style = "display: inline-block;">
+        <img src = "https://t.pimg.jp/053/944/180/1/53944180.jpg" alt = "image" width = "200" height = "200">
+        <img src = "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2020071413233706552bf45d5d5ea18013416985.jpg" alt = "image" width = "200" height = "200">
+        </div>
+        </div>
+        <p class ="shadow" style = "font-size: large;">현재 - 여행, 운동, 아르바이트
+        <br>
+        목표 - 공부 열심히 해서 성적올리기</p>
+        
+        <button type="button" onclick="document.getElementById('time').innerHTML = Date()">현재 시각</button>
+        <p id="time"></p>
+
+        <canvas id="myCanvas" width="400" height="50" style="border:1px solid #d3d3d3;"></canvas>
+        <br>
+        <div style="padding-bottom:10px;"></div>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:rgb(109, 174, 218);width:200px;height:50px; font-size: 30px; text-align: center;">감사합니다</div>
+        
+
+       <div style = "text-align:right;">
+       <a href = "https://www.instagram.com/stone._.mk/"><img src = "https://mblogthumb-phinf.pstatic.net/MjAxNzAzMTRfNzcg/MDAxNDg5NDg3Mzg1MTMz.208BuwBSx9_wbks6RaePzi3hyzKvSoKqBrZgVOGzWNUg.DOm48N2aEX2qkgFWOeduX_vEhljnO8nwrnjUONTRfckg.JPEG.kdh0074/image_8176512051489487744169.jpg?type=w800" alt = "instagram" width = "70px"></a>
+       <p style = "font-size: small;">인스타 주소(이미지 클릭)</p>
+       <a href = "mailto:tjralsrb0828@gmail.com">Send email</a>
+       </div>
+      
+       <address class = "font-italic" style = "text-align:right;">
+           19011447 석민규<br>
+           TEL : 010-3823-6082<br>
+           ADR : 경기도 의왕시 모락로 89-16 <br>
+           MAIL : smk000828@naver.com/tjralsrb0828@gmail.com
+        </address>
+        <input type="button" value="뒤로가기" onclick="goBack()">
+        <input type="button" value="앞으로가기" onclick="goForward()">
+        
+        </div>
+
+        <script>
+            setInterval(myTimer, 1000);
+            
+            function myTimer() {
+              const d = new Date();
+              document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+            }
+        </script>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "25px Arial";
+            ctx.strokeText("Javascript 캔버스 응용하기",10,40);
+        </script>
+        <script>
+            function mOver(obj) {
+            obj.innerHTML = "Thank you"
+            }
+    
+            function mOut(obj) {
+            obj.innerHTML = "감사합니다"
+            }
+        </script>
+        <script>
+            function goBack() {
+              window.history.back()
+            }
+            function goForward() {
+                window.history.forward()
+            }
+        </script>
+
+
+    </body>
+</html>
