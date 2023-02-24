@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <title>웹프 과제용 홈페이지</title>
+    </head>
+    <style>
+        body{
+            background-color:rgb(238, 229, 229);
+        }
+
+        a:link {
+             color: rgb(77, 191, 232);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(246, 66, 216);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        
+    </style>
+    <body>
+        
+        <div style="padding:10px;"></div>
+
+        <a href="https://map.naver.com/v5/entry/place/11591591?c=14145334.2769901,4516255.9891621,15,0,0,0,dh" style ="font-size: 30px;">Click and Visit Sejong University</a>
+        <div style="padding:10px;"></div>
+        <div>
+        <img src = "https://w.namu.la/s/117a8bc3dcad1331326f738e3a58c3cb293299a632eef07f3ea5168d1f9603f3c33717af302957e1a5b6a29f434cb2a636c663a8a7e5f178e0f7ca5eaa374230d43c3ab4378b67ba20156065366c1b7e135f9f4cc2b5bb9f20d57993278e6ff0" alt="img" width = "500px" height="250px">
+        </div>
+        <br>
+        <div>
+        <img src = "https://w.namu.la/s/e820e86ab62e392d4140d33e80a55261f50b94086d5a3c968bff3e1d975c019247f794847a56e5610036ffe265229b8ff4023337cf1ca66b662e33df2b29e4326e53b3e69dcd46f44e3b63c1943206171d12f1268c71ae0c3f5b58982608ae33" alt = "img" width = "500px" height="250px">
+        </div>
+        <br>
+        <div>
+        <img src = "https://w.namu.la/s/7c71710b3d9fd37b88ab99e8c1c75cad77500087f9df516afd9d15ede7bd049532e416cb3a2b3e1a03df84d6ffd5d452d217e0d05e15055bf0d7963825ca666e1c36512568618fb91fb790d68c0991deb0188b90f845b6c8cf40aca4bf5f6bc4" alt = "img" width = "500px" height="250px">
+        </div>
+        <br>
+        <input type="button" value="Back" onclick="goBack()">
+        <input type="button" value="Forward" onclick="goForward()">
+
+
+
+
+        <script>
+            function goBack() {
+              window.history.back()
+            }
+            function goForward() {
+                window.history.forward()
+            }
+        </script>
+
+
+
+
+    </body>
+</html>

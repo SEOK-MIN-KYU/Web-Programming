@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <title>웹프 과제용 홈페이지</title>
+
+        <style>
+            body{
+              background-color:rgb(247, 241, 241);
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: rgb(249, 105, 105);
+            }
+            
+            li {
+              float: left;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+              background-color: rgb(247, 175, 175);
+            }
+            
+            .active {
+              background-color: #f73e3e;
+            }
+            .on{
+                width: 5%;
+            }
+            .calender{
+                margin-right:auto;
+                margin-left: auto;
+            }
+            .cal_title{
+
+                text-align: center;
+                background-color: pink;
+                color:white;
+                font-size: 50px;
+                font-style: inherit;
+                width:30%;
+                margin-top: 30px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 30px;
+                
+            }
+            td{
+                text-align: right;
+            }
+            table{
+                
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 30px;
+            }
+            #calender_list ul {
+                width:50%;
+                margin-top: 10px;
+                margin:0 auto;
+                float:center;
+            }
+            .btn1{
+                margin:0 auto;
+                width:50%;
+                margin-top: 10px;
+            }
+            .btn2{
+                margin-top: 10px;
+                margin: 0 auto;
+                width:50%;
+            }
+            </style>
+    </head>
+    <body>
+        <ul >
+        <li><a href="웹프 과제5.html">Home</a></li>
+        <li><a href="찾아오는 길.html">찾아오는 길</a></li>
+        <li><a href="학사 일정.html">학사 일정</a></li>
+
+        <li style="float:right"><a class="active" href="로그인.html">로그인</a></li>
+      </ul>
+
+        <div class="calendar_wrap">
+        <h4 class="cal_title">2022년 6월/June</h4>
+        <div class="total">
+            <div class="calendar">
+                <table border="5" cellpadding="10" cellspacing="10" width = "50%" style ="background-color:white; ">
+                    <thead>
+                    <tr style= "text-align:center;">
+                        <th style="color:red">SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th style ="color:blue;">SAT</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <td></td>
+                        <td class="on">1</td>
+                        <td class="on">2</td>
+                        <td class="on">3</td>
+                        <td class="on">4</td>
+                    </tr>
+                    <tr>
+                        <td class="on">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td class="on">9</td>
+                        <td class="on">10</td>
+                        <td class="on">11</td>
+                    </tr>
+                    <tr>
+                        <td class="on">12</td>
+                        <td class="on">13</td>
+                        <td class="on">14</td>
+                        <td class="on">15</td>
+                        <td class="on">16</td>
+                        <td class="on">17</td>
+                        <td class="on">18</td>
+                    </tr>
+                    <tr>
+                        <td class="on">19</td>
+                        <td class="on">10</td>
+                        <td class="on">21</td>
+                        <td class="on">22</td>
+                        <td class="on">23</td>
+                        <td class="on">24</td>
+                        <td class="on">25</td>
+                    </tr>
+                    <tr>
+                        <td class="on">26</td>
+                        <td class="on">27</td>
+                        <td class="on">28</td>
+                        <td class="on">29</td>
+                        <td class="on">30</td>
+                        <td>&nbsp;</td>
+                        <td class="on">&nbsp;</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="calender_list" >
+                <ul  style = "background-color: rgb(247, 241, 241);">
+                    <li style = "background-color: rgb(247, 241, 241);">- 5.31(화) -  3(금)</span>하계 계절학기 수강신청</li>
+                    <br>
+                    <li style = "background-color: rgb(247, 241, 241);">- 9(목) - 27(월)</span>1학기 강의평가</li>
+                    <br>
+                    <li style = "background-color: rgb(247, 241, 241);">- 15(수) - 21(화)</span>1학기 기말고사 및 수업결손 보충</li>
+                    <br>
+                    <li style = "background-color: rgb(247, 241, 241);">- 22(수) - 27(월)</span>1학기 기말고사 성적 입력</li>
+                    <br>
+                    <li style = "background-color: rgb(247, 241, 241);">- 22(수)</span>하계방학 시작 및 계절학기 개강</li>
+                    <br>
+                    <li style = "background-color: rgb(247, 241, 241);">- 28(화) - 7.2(토)</span>1학기 기말고사 성적 열람 및 정정</li>
+                </ul>
+            </div>
+               
+            </div>
+        </div>
+        
+       
+    <div class="btn1">
+        <button type="button" onclick="document.getElementById('time').innerHTML = Date()">오늘 날짜</button>
+        <p id="time"></p>
+
+    </div>
+    <div class="btn2"> 
+        <input type="button" value="Back" onclick="goBack()">
+        <input type="button" value="Forward" onclick="goForward()">
+    </div>
+
+       
+
+        <script>
+            function goBack() {
+              window.history.back()
+            }
+            function goForward() {
+                window.history.forward()
+            }
+        </script>
+    </body>
+</html>
